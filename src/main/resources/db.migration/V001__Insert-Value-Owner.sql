@@ -1,0 +1,1 @@
+INSERT INTO owner(nome, email, telefone) VALUES ("Paulo","paulo@hotmail.com", "991424909")
