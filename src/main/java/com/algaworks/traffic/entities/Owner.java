@@ -21,28 +21,28 @@ public class Owner {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String nome;
+    private String name;
     private String email;
-    private String telefone;
+    private String phone;
 
     public Owner(){
 
     }
 
-    public Owner(Long id, String nome, String email, String telefone) {
+    public Owner(Long id, String name, String email, String phone) {
         this.id = id;
-        this.nome = nome;
+        this.name = name;
         this.email = email;
-        this.telefone = telefone;
+        this.phone = phone;
     }
 
     @Override
     public String toString() {
         return "Owner{" +
                 "id=" + id +
-                ", nome='" + nome + '\'' +
+                ", nome='" + name + '\'' +
                 ", email='" + email + '\'' +
-                ", telefone='" + telefone + '\'' +
+                ", telefone='" + phone + '\'' +
                 '}';
     }
 }
