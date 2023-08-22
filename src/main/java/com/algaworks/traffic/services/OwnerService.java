@@ -26,6 +26,10 @@ public class OwnerService{
         return ownerImpl.findByNameContaining(name);
     }
 
+    public Owner insert(Owner owner){
+        return ownerImpl.save(owner);
+    }
+
 
 
 }
